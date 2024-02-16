@@ -1,12 +1,12 @@
 <footer class="rodape">
   <h3 class="rodape__titulo">Autores</h3>
   <section class="container">
-    <div>
+    <div *ngFor="let nome of nomes">
       <div class="item"></div>
-      <p>Ryan</p>
+      <p >{{nome}}</p>
     </div>
-    <div>
-      <div class="item"></div>
+  </section>
+   <!--    <div class="item"></div>
       <p>Henrique</p>
     </div>
     <div>
@@ -28,8 +28,8 @@
     <div>
       <div class="item"></div>
       <p>Kauê</p>
-    </div>
+    </div> -->
     
-  </section>
+  
   
 </footer>

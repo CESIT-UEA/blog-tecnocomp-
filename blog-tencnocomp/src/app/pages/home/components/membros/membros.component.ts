@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MembrosComponent {
 
+    nomes: Array<string> = ['Ryan','Henrique','Marcos','Lívia','Jorge','Ronaldo','Kauê'];
 }
